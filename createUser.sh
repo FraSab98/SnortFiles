@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo mysql < createUser.sql
+sudo -S mysql < createUser.sql
