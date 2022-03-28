@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo mysql < createDb.sql
+sudo -S mysql < createDb.sql
