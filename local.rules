@@ -1,0 +1,3 @@
+alert icmp any any -> $HOME_NET any (msg:"Pacchetto ICMP rilevato"; GID:1;sid:10000001; rev:001; classtype:icmp-event;)
+alert tcp any any -> $HOME_NET 22  (msg:"NMAP TCP Scan"; sid:10000005; rev:2;)
+alert tcp any any -> $HOME_NET 80  (msg:"NMAP TCP Scan"; sid:10000006; rev:2;)
