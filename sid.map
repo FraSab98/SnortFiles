@@ -1,0 +1,3 @@
+gid,1 || sid,10000001 || ref,001 || classification,icmp-event || priority,0 ||msg, Pacchetto ICMP rilevato || url,tools.ietf.org/html/rfc792
+gid,1 || sid,10000005 || ref,002 || classification,network-scan || priority,0 || mag, NAMP TCP Scan
+gid,1 || sid,10000006 || ref,002 || classification,network-scan || priority,0 || mag, NAMP TCP Scan
